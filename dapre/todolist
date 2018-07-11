@@ -1,0 +1,11 @@
+## write multiple api for xs in ggplot_continuous_hist
+p1 <- ggplot_continuous_hist(Glass,'RI')
+p2 <- ggplot_continuous_hist(Glass,'Na')
+p3 <- ggplot_continuous_hist(Glass,'Mg')
+p4 <- ggplot_continuous_hist(Glass,'Al')
+p5 <- ggplot_continuous_hist(Glass,'Si')
+p6 <- ggplot_continuous_hist(Glass,'K')
+p7 <- ggplot_continuous_hist(Glass,'Ca')
+p8 <- ggplot_continuous_hist(Glass,'Ba')
+p9 <- ggplot_continuous_hist(Glass,'Fe')
+multiplot(p1,p2,p3,p4,p5,p6,p7,p8,p9,cols = 2)

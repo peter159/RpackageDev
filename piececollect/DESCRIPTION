@@ -1,0 +1,11 @@
+Package: piececollect
+Title: Some Useful Functionalities Collected Normally
+Version: 0.1.0
+Authors@R: person("Peter", "Lin", email = "peter.lin@nielsen.com", role = c("aut", "cre"))
+Description: some useful functionalities collected for effective working
+Depends: R (>= 3.1.2), RJSONIO
+Imports: tidyverse, jiebaR
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
